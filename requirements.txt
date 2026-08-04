@@ -1,0 +1,11 @@
+crewai
+crewai-tools
+langchain
+python-dotenv 
+requests
+beautifulsoup4
+pydantic
+langchain-groq
+crewai[litellm]
+litellm
+streamlit
