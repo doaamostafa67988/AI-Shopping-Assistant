@@ -13,7 +13,12 @@ def create_agents():
         llm = llm,
         tools = [search_tool],
         verbose = True,
-        allow_delegation = False
+        allow_delegation = False,
+        # The agent was re-running the search with slightly reworded
+        # queries when it wasn't fully satisfied with the first result,
+        # burning through Groq's per-minute token limit. One search should
+        # be enough - cap the loop so it moves to a final answer sooner.
+        max_iter = 3,
     )
 
     analyst = Agent(    

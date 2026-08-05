@@ -1,4 +1,6 @@
 .venv/
+.vendor/
+.vendor_litellm/
 __pycache__/
 *.pyc
 .env
