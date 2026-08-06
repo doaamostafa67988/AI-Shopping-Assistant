@@ -2,9 +2,6 @@ import os
 import sys
 from pathlib import Path
 
-vendor_litellm = Path(__file__).resolve().parent.parent / ".vendor_litellm"
-if vendor_litellm.exists():
-    sys.path.insert(0, str(vendor_litellm))
 
 from crewai import LLM 
 from dotenv import load_dotenv
