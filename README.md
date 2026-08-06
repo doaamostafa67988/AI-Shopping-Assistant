@@ -20,7 +20,7 @@
 **AI Shopping Assistant** is an agentic AI application built with [CrewAI](https://github.com/joaomdmoura/crewAI) that automates the product research and recommendation process. The user simply provides a product name (and optionally preferred e-commerce websites), and two specialized AI agents collaborate to search the web, collect product data, analyze options, and return the best recommendations based on **price**, **quality**, and **ratings**.
 
 No more tab-hopping across Amazon, Noon, or eBay — let the agents do the heavy lifting.
-
+**Try it live:** [AI Shopping Assistant](https://ai-shopping-assistant-gf.streamlit.app/)
 ---
 
 ## 🎬 Demo / Overview
